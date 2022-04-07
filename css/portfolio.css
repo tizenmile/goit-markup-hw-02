@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
-
 .link {
     text-decoration: none;
 }
@@ -80,6 +79,14 @@ body {
     letter-spacing: 0.02em;
 }
 
+.header-tel {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
 .header-mail:hover {
     color: #2196F3;
 }
@@ -89,94 +96,46 @@ body {
 }
 
 
-.header-tel {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
+/* hero */
 
-
-/* main */
-
-.heading {
-    background: #2F303A;
-}
-
-.main-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
+.main-btn-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.main-btn {
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
     border-radius: 4px;
-    color: #FFFFFF;
     cursor: pointer;
 }
 
-/* hero */
+.main-btn-item:hover {
+    background-color: #2196F3;
+    color: white;
+}
 
-.benefits-item-title {
+.main-btn-item:focus {
+    background-color: #2196F3;
+    color: white;
+}
+
+.port-title {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
 }
 
-.benefits-item-p {
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
-}
-
-/* Work */
-
-.title-work {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-/* Team */
-
-.team {
-    background: #F5F4FA;
-}
-
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-}
-
-.team-list-item {
-    font-weight: 500;
+.port-text {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+    line-height: 30px;
+    /* identical to box height, or 188% */
 
-    color: #212121;
-}
-
-.team-list-text {
-    font-size: 16px;
-    line-height: 19px;
     letter-spacing: 0.03em;
 
     color: #757575;
