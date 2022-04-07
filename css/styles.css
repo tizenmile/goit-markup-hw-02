@@ -106,8 +106,7 @@ body {
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -134,11 +133,8 @@ body {
 
 .benefits-item-p {
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
+    line-height: 1.71px;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 
@@ -170,7 +166,6 @@ body {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 
@@ -178,7 +173,6 @@ body {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 
@@ -204,30 +198,22 @@ body {
 
 .address-item {
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;
 }
 
 .address-mail {
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71px;
     letter-spacing: 0.03em;
-    
     color: rgba(255, 255, 255, 0.6);
 }
 
 .address-tel {
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    
+
     color: rgba(255, 255, 255, 0.6);
 }
