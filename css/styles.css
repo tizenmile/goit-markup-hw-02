@@ -93,7 +93,7 @@ body {
     color: var(--address-color);
 }
 
-.header-mail:hover
+.header-mail:hover,
 .header-mail:focus {
     color: var(--hover-color);
 }
